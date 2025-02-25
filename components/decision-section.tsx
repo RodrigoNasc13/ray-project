@@ -35,7 +35,7 @@ export default function DecisionSection() {
   }, [moveDeclineButton])
 
   return (
-    <section className="bg-white rounded-lg shadow-md p-8 text-center">
+    <section className="bg-white rounded-lg shadow-md p-8  text-center">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Aceita ser minha?</h2>
       <div ref={containerRef} className="relative h-[300px] mb-8">
         <Button
@@ -54,7 +54,7 @@ export default function DecisionSection() {
             onClick={moveDeclineButton}
             className="bg-red-200 hover:bg-red-300 text-gray-800 font-semibold py-2 px-6 rounded-md text-sm"
           >
-            impossível
+            Impossível
           </Button>
         </motion.div>
       </div>

@@ -13,7 +13,7 @@ const VideoCard = ({ title, src }: { title: string; src: string }) => (
     <div className="p-4">
       <h3 className="text-lg font-semibold text-gray-800 mb-2">{title}</h3>
       <button className="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
-        <Play className="w-4 h-4 mr-1" /> <a target="blank" href={src}>Watch Now</a> 
+        <Play className="w-4 h-4 mr-1" /> <a target="blank" href={src}>Assistir</a> 
       </button>
     </div>
   </div>
@@ -21,20 +21,18 @@ const VideoCard = ({ title, src }: { title: string; src: string }) => (
 
 export default function VideoGallery() {
   return (
-    <section className="mb-16">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Musicas que quero te dedicar
-      </h2>
+    <section className="mb-16 space-y-8">
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Musicas que quero te dedicar</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <VideoCard title="Minhas intenções" src="https://www.youtube.com/embed/-x2cE--r3L8" />
         <VideoCard title="Se toca essa fudeu, preciso ir pra Santos" src="https://www.youtube.com/embed/U-yVACiLXm0" />
-
-          
-        <VideoCard title="Trailer do filme que precisamos ver ❤" src="https://www.youtube.com/embed/3xNH23QkNpk" />
-        
       </div>
 
-
-      
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Vídeos</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">          
+        <VideoCard title="Trailer do filme que precisamos ver ❤" src="https://www.youtube.com/embed/3xNH23QkNpk" />
+        <VideoCard title="Aceita viver um romance igual ao desse filme?" src="https://www.youtube.com/embed/4SIpCM1r2wc" />
+      </div>
     </section>
   )
 }

@@ -55,14 +55,9 @@ export default function AudioGallery() {
       audioSrc: "/audios/audio-t.ogg",
     },
     {
-      name: "Laughter Together",
-      description: "A compilation of our shared moments of joy.",
-      audioSrc: "/placeholder-audio-2.mp3",
-    },
-    {
-      name: "Future Plans",
-      description: "Listen to us dreaming about our future together.",
-      audioSrc: "/placeholder-audio-3.mp3",
+      name: "Bouneval",
+      description: "Membro da trindade, irmão de outra mãe e amigo há 40 anos (me conhece legal)",
+      audioSrc: "/audios/audio-b.ogg",
     },
   ]
 

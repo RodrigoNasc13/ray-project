@@ -5,7 +5,7 @@ export default function ReasonsTabs() {
   return (
     <section className="mb-16">
       <Tabs className="w-full bg-violet-200 rounded-lg">
-        <TabsList className="grid text-white bg-violet-800  w-full grid-cols-3 mb-8">
+        <TabsList className="grid text-white bg-violet-800 w-full grid-cols-3 mb-8">
           <TabsTrigger value="motivos" className="text-sm">
             <CheckCircle className="w-4 h-4 mr-2" /> Motivos
           </TabsTrigger>
