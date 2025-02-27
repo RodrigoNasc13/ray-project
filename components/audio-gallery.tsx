@@ -51,7 +51,7 @@ export default function AudioGallery() {
   const audioCards = [
     {
       name: "Thayron",
-      description: "Membro da trindade, meu babeiro e amigo há mais de 3 anos. Casado há 2 anos (sabe das coisas)",
+      description: "Membro da trindade, meu barbeiro e amigo há mais de 3 anos. Casado há 2 anos (sabe das coisas)",
       audioSrc: "/audios/audio-t.ogg",
     },
     {
@@ -59,6 +59,17 @@ export default function AudioGallery() {
       description: "Membro da trindade, irmão de outra mãe e amigo há 40 anos (me conhece legal)",
       audioSrc: "/audios/audio-b.ogg",
     },
+    {
+      name: "Ingrid",
+      description: "Minha irmã (auto explicativo)",
+      audioSrc: "/audios/audio-i.ogg",
+    },
+    {
+      name: "Anyel",
+      description: "Irmão e melhor amigo, me acompanha sempre em tudo",
+      audioSrc: "/audios/audio-n.ogg",
+    },
+
   ]
 
   return (

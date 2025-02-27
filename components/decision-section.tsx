@@ -65,7 +65,7 @@ export default function DecisionSection() {
           transition={{ duration: 0.5 }}
           className="text-lg text-gray-700 font-medium"
         >
-          Quero você meu bem, obrigado por ver tudo até aqui ❤
+          Não me chama de divo não ❤ 
         </motion.p>
       )}
     </section>
